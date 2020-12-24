@@ -9,7 +9,9 @@ Solutions to common problems encountered with CrowPi2.
 # Image releasing
 An updated CrowPi2 image which fixes all the issues below can be downloaded from "https://drive.google.com/file/d/1kL1lQcXDQit4ITlbM5aiwib_8aIJ9ziC/view", saving you the trouble of applying the fixes yourself.
 
-(Nb. its normal for the image to restart when booted for the first time.)
+Notes:
+ * its normal for the image to restart when booted for the first time.
+ * "unzip" on MAC OSX cannot handle things zipped with PKZIP so `brew install p7zip` (see https://unix.stackexchange.com/questions/115825/extra-bytes-error-when-unzipping-a-file)
 
 
 # Expanding the Raspberry Pi file system before upgrading your system
